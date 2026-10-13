@@ -1,0 +1,28 @@
+{
+  "name": "api-experiencias",
+  "version": "1.0.0",
+  "description": "API REST para administrar experiencias profesionales de una hoja de vida",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "experiencias",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.2",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {}
+}
